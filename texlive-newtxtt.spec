@@ -6,7 +6,7 @@
 # catalog-version 1.00
 Name:		texlive-newtxtt
 Version:	1.00
-Release:	3
+Release:	4
 Summary:	Enhancement of typewriter fonts from newtx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtxtt
