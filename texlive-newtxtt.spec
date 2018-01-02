@@ -1,12 +1,6 @@
-# revision 33819
-# category Package
-# catalog-ctan /fonts/newtxtt
-# catalog-date 2014-05-04 12:01:16 +0200
-# catalog-license gpl3
-# catalog-version 1.00
 Name:		texlive-newtxtt
-Version:	1.00
-Release:	4
+Version:	1.055
+Release:	1
 Summary:	Enhancement of typewriter fonts from newtx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtxtt
@@ -34,46 +28,12 @@ different styles for zero.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/enc/dvips/newtxtt/txttAec.enc
-%{_texmfdistdir}/fonts/enc/dvips/newtxtt/txttBec.enc
-%{_texmfdistdir}/fonts/enc/dvips/newtxtt/txttCec.enc
-%{_texmfdistdir}/fonts/enc/dvips/newtxtt/txttDec.enc
-%{_texmfdistdir}/fonts/map/dvips/newtxtt/newtxtt.map
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbtta.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttb.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttc.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttd.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttsca.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttscb.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttscc.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttscd.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttsla.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttslb.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttslc.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxbttsld.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxtt.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxtta.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttb.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttc.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttd.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttsca.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttscb.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttscc.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttscd.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttsla.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttslb.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttslc.tfm
-%{_texmfdistdir}/fonts/tfm/public/newtxtt/newtxttsld.tfm
-%{_texmfdistdir}/fonts/type1/public/newtxtt/newtxbtt.pfb
-%{_texmfdistdir}/fonts/type1/public/newtxtt/newtxbttsc.pfb
-%{_texmfdistdir}/fonts/type1/public/newtxtt/newtxtt.pfb
-%{_texmfdistdir}/fonts/type1/public/newtxtt/newtxttsc.pfb
-%{_texmfdistdir}/tex/latex/newtxtt/newtxtt.sty
-%{_texmfdistdir}/tex/latex/newtxtt/t1newtxtt.fd
-%{_texmfdistdir}/tex/latex/newtxtt/ts1newtxtt.fd
-%doc %{_texmfdistdir}/doc/fonts/newtxtt/README
-%doc %{_texmfdistdir}/doc/fonts/newtxtt/newtxtt-doc.pdf
-%doc %{_texmfdistdir}/doc/fonts/newtxtt/newtxtt-doc.tex
+%{_texmfdistdir}/fonts/enc/dvips/newtxtt
+%{_texmfdistdir}/fonts/map/dvips/newtxtt
+%{_texmfdistdir}/fonts/tfm/public/newtxtt
+%{_texmfdistdir}/fonts/type1/public/newtxtt
+%{_texmfdistdir}/tex/latex/newtxtt
+%doc %{_texmfdistdir}/doc/fonts/newtxtt
 
 #-----------------------------------------------------------------------
 %prep
