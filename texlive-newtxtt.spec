@@ -1,12 +1,12 @@
 Name:		texlive-newtxtt
-Version:	1.055
-Release:	2
+Version:	54512
+Release:	1
 Summary:	Enhancement of typewriter fonts from newtx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtxtt
 License:	GPL3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtxtt.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtxtt.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtxtt.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtxtt.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -19,12 +19,12 @@ and bold weights, slanted variants and a choice of four
 different styles for zero.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,7 @@ different styles for zero.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
