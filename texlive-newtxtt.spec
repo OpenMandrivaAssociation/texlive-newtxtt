@@ -1,6 +1,6 @@
 Name:		texlive-newtxtt
 Version:	54512
-Release:	1
+Release:	2
 Summary:	Enhancement of typewriter fonts from newtx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtxtt
