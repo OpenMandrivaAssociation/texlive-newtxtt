@@ -1,5 +1,5 @@
 Name:		texlive-newtxtt
-Version:	69451
+Version:	70620
 Release:	1
 Summary:	Enhancement of typewriter fonts from newtx
 Group:		Publishing
