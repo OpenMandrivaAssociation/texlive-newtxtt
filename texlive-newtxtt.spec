@@ -3,7 +3,7 @@ Version:	70620
 Release:	1
 Summary:	Enhancement of typewriter fonts from newtx
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/newtxtt
+URL:		https://www.ctan.org/tex-archive/fonts/newtxtt
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtxtt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtxtt.doc.r%{version}.tar.xz
